@@ -10,9 +10,6 @@ Aucune n'a d'expérience sur PICO-8 et dans la création de jeu vidéo.
 
 [- Produire un découpage de features et créer autant  d'"issues" sur votre repo (selon la méthode vue avec Adrien en plénière)]
 
-Lundi 29 : *installation et ressources / *brainstorming / *ébauches des sprites
-
-Mardi 30 : *ressources / *rédaction de la documentation Github / *planninfication des tâches
 
 
 ## Mode de fonctionnement 
