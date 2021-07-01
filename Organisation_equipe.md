@@ -20,4 +20,6 @@ _- Notez enfin les règles de gestion que vous décidez de mettre en place pour 
 
 - Sprites : ébauches individuelles pour avancer plus rapidement
 
-- Développement ensuite en pair-programming, sur un ordinateur de référence (il n'est pas possible sur PICO-8 de rassembler des codes écrits sur différents ordinateurs).
+- Développement ensuite en mob-programming, sur un ordinateur de référence (il n'est pas possible sur PICO-8 de rassembler des codes écrits sur différents ordinateurs) pour atteindre le level 1 du projet. Le level 1 du projet correspond à la mise en place du projet (utilisation des fonctions essentielles, création du graphisme de base, intégration d'un personnage et d'un objet, mouvements au clavier, caméra et son)
+
+- Pour passer au level 2, répartition des tâches dans la recherche de ressources, la compréhension de nouvelles fonctions et la rédaction de la documentation
