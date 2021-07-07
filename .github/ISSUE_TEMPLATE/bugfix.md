@@ -1,18 +1,23 @@
 ---
-name: BugFix Flag
-about: Le personnage player n'est pas stoppé par les obstacles
-title: "[BugFix][Pico8][Flag] Impossible de générer des obstacles"
+name: BugFix Disparition d'un personnage statique
+about: Quand les 2 personnages se rencontrent, le personnage statique, secondaire, ne disparait pas
+title: "[BugFix][Pico8][Pick_up][Interact] Impossible d'enchaîner une réponse à une interaction"
 labels: enhancement
 assignees: ''
 
 ---
 Description :
-- assignation d'un flag au sprite correspondant à un obstacle
-- utilisation de la fonction check_flag()
-Et pourtant le mouvement du personnage n'est pas stoppé quand il arrive sur un sprite "flaggé" en obstacle.
+- le personnage player cherche un personnage secondaire statique
+- quand il le trouve, le sprite du personnage player passe derrière et seul reste le sprite du personnage secondaire
 
 Résolution :
-Le flag se rapporte à un sprite qui correspond lui-même à une tile. Il est donc nécessaire que le personnage se déplace par tile, et non par pixel. Dans la fonction draw_player(), il faut donc ajouter x8 (asterisque 8) aux coordonnées du sprite.
+Elle se fait grâce à une modification de statut. 
+
+Puisque le personnage est statique, il vaut mieux considérer le personnage secondaire comme un objet, plutôt que comme un personnage. Le sprite doit donc être intégrer à la map, et non par le biais des fonctions create_p() et draw_p().
+
+Dans la fenêtre de création des sprites :
+- nécessaire d'assigner un flag à ce sprite, 
+- de le faire suivre par un sprite sans flag, qui reprendra le visuel sans l'objet/ personnage, pour utiliser la fonction next_tile().
 
 
 ---
