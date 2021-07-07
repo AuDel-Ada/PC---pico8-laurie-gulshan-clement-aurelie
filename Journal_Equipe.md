@@ -25,3 +25,15 @@ MERCREDI 30 :
 JEUDI 01 :
 - intégration du son
 
+LUNDI 05 :
+- modification des couleurs du player, du sprite enfant et de certains éléments de la map, en prnenat en compte le niveau de contraste
+- intégration du premier message résultat du ramassage d'objet, travail graphique et debug
+
+MARDI 06 :
+- intégration des 2 autres 
+- génération d'une scène_win
+- amélioration graphique esthét
+
+MERCREDI 07 :
+- débug caméra : écran de win mal cadré suivant où le player s'arrête
+
