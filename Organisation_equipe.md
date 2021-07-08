@@ -1,25 +1,35 @@
 # Organisation de l'équipe
 
-[*Le but de ce fichier est de mettre à plat l'organisation de votre équipe et de votre semaine de projet - il est à remplir le lundi du lancement du projet et à présenter à l'encadrante du jour*]
-
 4 personnes : Laurie, Gulshan, Clément et Aurélie
-
-Aucune n'a d'expérience sur PICO-8 et dans la création de jeu vidéo.
+Aucune n'a d'expérience sur PICO-8 et dans la création de jeu vidéo
+Priorisation au mob-programming pour optimiser l'utilisation des ressources trouvées par chacun.e
 
 ## Roadmap
 
-[- Produire un découpage de features et créer autant  d'"issues" sur votre repo (selon la méthode vue avec Adrien en plénière)]
-
-
+- affichage d'un jeu
+- travail graphique : dessin des personnages, objets, habillage générique début et fin, détournement des sprites pour    amélioration des écritures
+- optimisation du générique : animation d'un sprite et défilement aléatoire
+- intégration d'une map
+- caméra
+- insertion musique et bruitage
+- mouvements par fleches clavier
+- navigation dans les états par touches clavier
+- ramassage d'objet avec changement de sprite (next_tile) et actions répondantes
+- création de fenêtre de dialogue
+- création d'un HUD
+- changement d'états (scene_)
+- publication du jeu sur le forum du moteur de jeu et sur le moteur de jeu directement (splore)
+- tests sur 3 OS différents (Windows, MacOS, Linux) et manette de jeu
 
 ## Mode de fonctionnement 
 
-[- Expliciter ici sous quel mode vous allez fonctionner : en mob programming à 3 ou 4, et pair programming par binômes, individuellement, etc.
-_- Si vous ne travaillez pas en mob programming, indiquez également quels sont les rituels que vous comptez mettre en place pour (1) faire des points de synchronisation au sein de l'équipe et partager votre avancement et (2) mettre en commun votre code et vérifier que l'ensemble du projet fonctionne bien.
-_- Notez enfin les règles de gestion que vous décidez de mettre en place pour le repo : utilisation des branches, utilisation des pulls requests, process de validation des pulls requests avant de les fusionner, etc.]
+Nos niveaux d'expérience sur un projet de ce type nous ont ammené à privilégier un travail d'équipe sans individualisation des tâches pour utiliser la symbiose et la complémentarité de nos idées et logiques. 
 
-- Sprites : ébauches individuelles pour avancer plus rapidement
+- Brainstorming continu pour adapter le jeu selon les fonctionnalités choisies, et celles réellement possibles.
 
-- Développement ensuite en mob-programming, sur un ordinateur de référence (il n'est pas possible sur PICO-8 de rassembler des codes écrits sur différents ordinateurs) pour atteindre le level 1 du projet. Le level 1 du projet correspond à la mise en place du projet (utilisation des fonctions essentielles, création du graphisme de base, intégration d'un personnage et d'un objet, mouvements au clavier, caméra et son)
+- Lancement du projet en équipe, puis répartition des tâches dans la recherche de ressources et la compréhension de nouvelles fonctions. Les foncionnalités plus avancées nous ont en effet demandé plus de concentration pour se les approprier.
 
-- Pour passer au level 2, répartition des tâches dans la recherche de ressources, la compréhension de nouvelles fonctions et la rédaction de la documentation
+- Développement en mob-programming sur tout le projet, avec relecture de code quotidienne avec rituel de clôture pour s'assurer de la bonne compréhension du code et du planning par chaque membre de l'équipe
+ 
+- Organisation en time-box sur l'ensemble du projet (équipe et tâches individuelles) : rythme de travail soutenu et équilibré, attention particulière à la motivation et à la concentration de chacun (on évite ainsi des temps de blocage sur la compréhension de certaines ressources et/ ou le développement de fonctionalités).
+
