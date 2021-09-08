@@ -11,4 +11,11 @@ Vous pouvez également télécharger le programme PICO 8, taper SPLORE, aller en
 
 Enfin, vous pouvez télécharger le programme PICO 8 et copier le cartouche .png dans le dossier caché de Lexaloffle.
 
+Vous incarnez alors un parent qui doit retrouver son enfant et des bouts d'histoire, pour le coucher.
+
+Beaucoup d'évolutions possibles :
+- ajouter de personnages pour complexifier le jeu,
+- ajouter un autre parent pour mettre en place un mode multi-player,
+- intégrer un timer,
+- intégrer des objets permettant de gagner du temps.
 
